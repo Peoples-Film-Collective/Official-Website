@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import Link from 'next/link'
+import ".././styles/littlecinema.css";
 
 const KPFCHomePage: NextPage = () => {
   const onFrameContainerClick = useCallback(() => {
@@ -24,7 +24,7 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/filmstill172dpi1030x579-2@2x.png"
         />
-        <div className="absolute top-[0px] left-[0px] bg-gray-300 w-[193px] h-[296px]" />
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[193px] h-[296px]" />
         <b className="absolute top-[129px] left-[25px] tracking-[-0.04em]">
           <p className="m-0">KOLKATA PEOPLES</p>
           <p className="m-0">FILM FESTIVAL</p>
@@ -44,8 +44,8 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/viral-still-31030x579-3@2x.png"
         />
-        <div className="absolute top-[0px] left-[0px] bg-gray-300 w-[193px] h-[296px]" />
-        <div className="absolute top-[0px] left-[0px] bg-gray-300 w-[193px] h-[296px]" />
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[193px] h-[296px]" />
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[193px] h-[296px]" />
         <b className="absolute top-[138px] left-[47px] tracking-[-0.04em]">
           SCREENINGS
         </b>
@@ -61,12 +61,10 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/filmstill2highres1030x579-3@2x.png"
         />
-        <div className="absolute top-[0px] left-[0px] bg-gray-300 w-[193px] h-[296px]" />
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[193px] h-[296px]" />
         <b className="absolute top-[129px] left-[65px] tracking-[-0.04em]">
-
           <p className="m-0">LITTLE</p>
           <p className="m-0">CINEMA</p>
-
         </b>
       </div>
       <div className="absolute top-[156px] left-[875px] w-[193px] h-[296px] hidden">
@@ -75,7 +73,7 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/01aalamstill300dpi1030x644-3@2x.png"
         />
-        <div className="absolute top-[0px] left-[0px] bg-gray-300 w-[193px] h-[296px]" />
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[193px] h-[296px]" />
         <b className="absolute top-[129px] left-[54px] tracking-[-0.04em]">
           <p className="m-0">FRAMES OF</p>
           <p className="m-0">FREEDOM</p>
@@ -87,7 +85,7 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/ahfmhstill011030x579-3@2x.png"
         />
-        <div className="absolute top-[0px] left-[0px] bg-gray-300 w-[193px] h-[296px]" />
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[193px] h-[296px]" />
         <b className="absolute top-[138px] left-[61px] tracking-[-0.04em]">
           STORIES
         </b>
@@ -268,9 +266,7 @@ const KPFCHomePage: NextPage = () => {
           NOTICE BOARD
         </div>
         <div className="absolute top-[223px] left-[74px] font-semibold inline-block w-[213px] h-11">
-        <Link href="/littlecinema">
           IN THE NEWS
-        </Link>
         </div>
         <div className="absolute top-[300px] left-[74px] font-semibold inline-block w-[213px] h-11">
           PUBLICATIONS
@@ -291,24 +287,24 @@ const KPFCHomePage: NextPage = () => {
             PHONE - 700xxxxxxxx
           </p>
         </div>
-        <div className="absolute top-[612px] left-[543px] text-[20px] font-semibold text-justify inline-block w-[425px] h-[50px]">
+        <div className="absolute top-[612px] left-[543px] text-xl font-semibold text-justify inline-block w-[425px] h-[50px]">
           <p className="m-0">© Copyright - Kolkata People’s Film Festival</p>
           <p className="m-0">{` `}</p>
         </div>
         <img
           className="absolute h-[2.59%] w-[1.37%] top-[38.53%] right-[10.54%] bottom-[58.88%] left-[88.09%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/icon.svg"
+          src="/icon1.svg"
         />
         <img
           className="absolute h-[3.68%] w-[1.85%] top-[37.92%] right-[7.34%] bottom-[58.41%] left-[90.81%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/twitter.svg"
+          src="/twitter1.svg"
         />
         <img
           className="absolute h-[3.27%] w-[1.56%] top-[38.16%] right-[4.49%] bottom-[58.57%] left-[93.95%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/linkedin.svg"
+          src="/linkedin1.svg"
         />
       </div>
       <b className="absolute top-[726px] left-[756px] text-21xl tracking-[-0.01em] inline-block font-larsseit text-black text-left w-[452px]">
@@ -343,14 +339,14 @@ const KPFCHomePage: NextPage = () => {
           src="/arrow-21.svg"
         />
       </div>
-      <div className="absolute top-[4418px] left-[627px] box-border w-0.5 h-[502px] border-r-[2px] border-solid border-gray-200" />
+      <div className="absolute top-[4418px] left-[627px] box-border w-0.5 h-[502px] border-r-[2px] border-solid border-gray-300" />
       <div className="absolute top-[156px] left-[226px] shadow-[0px_0px_0px_4px_rgba(255,_255,_255,_0.01)] w-[193px] h-[296px]">
         <img
           className="absolute h-[116.89%] w-[226.42%] top-[0%] right-[-126.42%] bottom-[-16.89%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
           alt=""
           src="/filmstill172dpi1030x579-2@2x.png"
         />
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-300" />
+        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-200" />
         <b className="absolute top-[43.58%] left-[12.44%] tracking-[-0.04em]">
           <p className="m-0">KOLKATA PEOPLE’S</p>
           <p className="m-0">FILM FESTIVAL</p>
@@ -362,8 +358,8 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/viral-still-31030x579-3@2x.png"
         />
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-300" />
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-300" />
+        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-200" />
+        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-200" />
         <b className="absolute top-[46.62%] left-[24.35%] tracking-[-0.04em]">
           SCREENINGS
         </b>
@@ -374,7 +370,7 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/filmstill2highres1030x579-3@2x.png"
         />
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-300" />
+        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-200" />
         <b className="absolute top-[43.58%] left-[33.68%] tracking-[-0.04em]">
           <p className="m-0">LITTLE</p>
           <p className="m-0">CINEMA</p>
@@ -386,7 +382,7 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/01aalamstill300dpi1030x644-3@2x.png"
         />
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-300" />
+        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-200" />
         <b className="absolute top-[43.58%] left-[27.98%] tracking-[-0.04em]">
           <p className="m-0">FRAMES OF</p>
           <p className="m-0">FREEDOM</p>
@@ -398,7 +394,7 @@ const KPFCHomePage: NextPage = () => {
           alt=""
           src="/ahfmhstill011030x579-3@2x.png"
         />
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-300" />
+        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-gray-200" />
         <b className="absolute top-[46.62%] left-[31.61%] tracking-[-0.04em]">
           STORIES
         </b>
