@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useCallback } from "react";
 import ".././styles/littlecinema.css";
 
-const KPFCHomePage: NextPage = () => {
+const LittleCinema: NextPage = () => {
   const onFrameContainerClick = useCallback(() => {
     // Please sync "Frames of freedom" to the project
   }, []);
@@ -431,4 +431,4 @@ const KPFCHomePage: NextPage = () => {
   );
 };
 
-export default KPFCHomePage;
+export default LittleCinema;
