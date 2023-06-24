@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import Link from 'next/link'
+import Link from "next/link";
+import { redirect } from 'next/navigation'
 
 const KPFCHomePage: NextPage = () => {
   const onFrameContainerClick = useCallback(() => {
@@ -268,15 +269,19 @@ const KPFCHomePage: NextPage = () => {
           NOTICE BOARD
         </div>
         <div className="absolute top-[223px] left-[74px] font-semibold inline-block w-[213px] h-11">
-        <Link href="/littlecinema">
+        <Link href="/LittleCinema" onClick={()=>redirect('/LittleCinema')}>
           IN THE NEWS
         </Link>
         </div>
         <div className="absolute top-[300px] left-[74px] font-semibold inline-block w-[213px] h-11">
-          PUBLICATIONS
+        <Link href="/Stories" onClick={()=>redirect('/Stories')}>
+        PUBLICATIONS
+        </Link>
         </div>
         <div className="absolute top-[377px] left-[74px] font-semibold inline-block w-[213px] h-11">
-          SUPPORT US
+        <Link href="/Stories" onClick={()=>redirect('/Stories')}>
+        SUPPORT US
+        </Link>
         </div>
         <div className="absolute top-[253px] left-[1238px] font-semibold inline-block w-[232px] h-11">
           <p className="[margin-block-start:0] [margin-block-end:22px]">

@@ -148,7 +148,7 @@ const Stories: NextPage = () => {
           exercitation ullamco laboris
         </p>
       </div>
-      <div className="absolute top-[543px] left-[226px] rounded-t-31xl rounded-b-none bg-whitesmoke w-[1060px] h-[1846px]" />
+      <div className="absolute top-[543px] left-[226px] rounded-t-31xl rounded-b-none bg-whitesmoke-200 w-[1060px] h-[1846px]" />
       <div className="absolute top-[1215px] left-[826px] w-[360px] h-[621px] text-6xs">
         <img
           className="absolute h-[112.08%] w-[105.28%] top-[0%] right-[-5.28%] bottom-[-12.08%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
@@ -227,6 +227,7 @@ const Stories: NextPage = () => {
         <img
           className="absolute h-[106.12%] w-[99.72%] top-[0%] right-[0.28%] bottom-[-6.12%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
           alt=""
+          src="/pexelsmathiasreding13356439-1@2x.png"
         />
         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-11xl bg-gray-400" />
         <div className="absolute h-[5.4%] w-[81.94%] top-[85.61%] left-[6.67%] tracking-[-0.04em] font-medium whitespace-pre-wrap inline-block">
