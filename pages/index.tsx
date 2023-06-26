@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import { useCallback } from "react";
 import Link from "next/link";
 import { redirect } from 'next/navigation'
-import ScrollToTop from "@/components/ScrollToTop";
 
 const KPFCHomePage: NextPage = () => {
   const onFrameContainerClick = useCallback(() => {
@@ -435,7 +434,6 @@ const KPFCHomePage: NextPage = () => {
           <div className="absolute top-[23px] left-[594px] font-medium text-red">
             HOME
           </div>
-          <ScrollToTop />
         </div>
       </div>
     </div>
